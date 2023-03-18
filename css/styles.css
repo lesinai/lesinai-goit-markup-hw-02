@@ -3,31 +3,22 @@
     --title-text-color:rgba(46,47,66,1)
     --accent-color:rgba(77,90,229,1)
     --hero-text-color:(255,255,255,1)
-    --hero-bg-color:(46, 47, 66, 1)
+    
 }
 
-body {
+  body {
 
     color: #434455;
     background-color: #ffffff;
     font-family: 'Raleway','Roboto';
 
-}
-    /* Header */
-    header {
+  }
+     /* Header */
+     header {
       background-color: rgba(231, 233, 252, 1);
       
      }
-     .header-link  {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: calc(24 / 16);
-      color: var(--hero-bg-color);
-      text-decoration: none;
-  
-     }
+   
      /* reset decor settings */
 
      ul {
@@ -52,13 +43,18 @@ body {
      }
      .footer-logo {
         color: var(--hero-text-color);
+        
+      }
+
+       /* Header nav */
+      .site-nav .link {
+        color: var(--hero-bg-color);
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
         line-height: calc(24 / 16);
       }
-
       .site-nav .link:hover,
       .site-nav .link:focus,
       .site-nav .link-current,
@@ -68,36 +64,96 @@ body {
       .adress .link:focus {
         color: var(--accent-color);
       }
-
-      /* Header nav */
-      .site-nav .link {
-        color: var(--hero-bg-color);
+      .site-contacts .link {
+        color: var(--title-text-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:calc(24 / 16);
       }
 
-      
-      
       /* Hero */
      .hero {
-       background-color: var(--hero-bg-color); 
+       background-color: var(--accent-color); 
        }
-     .hero-title {
+     .hero .title {
+       color: var(--hero-text-color);
        font-family: 'Roboto';
        font-style: normal;
        font-weight: 700;
        font-size: 56px;
        line-height: calc(24 / 16);
-       color:var(--hero-text-color);
-      
        }
-     .hero-button { 
-       font-family: 'Roboto';
+
+       /* Button */
+
+     .button { 
+       color: var(--hero-text-color);
+       background-color: var(--accent-color);
+
+       cursor: pointer;
+
+       font-family: inherit;
        font-style: normal;
        font-weight: 500;
        font-size: 16px;
        line-height:calc(24 / 16);
-       color: var(--hero-text-color);
-       background-color: var(--accent-color);
        }
+
+     .button-filter {
+        background-color: rgba(231, 233, 252, 1);
+
+        cursor: pointer;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+     }
+     .button-filter:hover, 
+     .button-filter:focus {
+        color: var(--hero-text-color);
+        background-color: var(--accent-color);
+     }
+
+     /* Our Team */
+     .section-team .name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+        
+      }
+      
+      .section-team .text {
+        font-size: 16px;
+        line-height:calc(24 / 16);
+      }
+
+     /* What are we doing */
+     
+     .example .company {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height:calc(24 / 20);
+     }
+  
+     .example .type {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+     }
+     /* Footer */
+     .footer {
+        background-color: var(--title-text-color);
+     }
+
+
   
 
    /* колір основного тексту #ffffff */
@@ -115,39 +171,7 @@ body {
    /* колір бекграунду хедер #E7E9FC */
 
    /* зясувати як зробити напис логотипу двома кольорами */
-   .logo {
-    color: var(--title-text-color); 
-    color: var(--accent-color);
-   }
+  
 
    
-   /* Site nav */
-
- 
-   .site-nav .link {
-    color: var(--title-text-color);
-    background-color:#E7E9FC;
-    }
-   
-    /* Section */
-
- .section-title {
-    color: var(--title-text-color);
-   }
-
-   
-
-   /* Our values */
-
-   .values .title {
-       color: var(--title-text-color);
-       
-   }
-  /* Our Team */
-
-  /* Button */
-
-  .button {
-      color: var(--hero-text-color);
-      background-color: var(--accent-color);
-  }
+  
