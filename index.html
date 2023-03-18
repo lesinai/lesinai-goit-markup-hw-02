@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!--Шапка сайту-->
-    <header class="page-header">
+    <header>
       <nav>
-        <a href="#" class="logo">webstudio</a>
-        <ul class="site-nav">
-          <li><a href="#" class="link">Studio</a></li>
-          <li><a href="#" class="link">Portfolio</a></li>
+        <a href="#" class="header-logo link logo">
+          <span class="logo-accent">Web</span>Studio</a>
+        <ul class="site-nav list-style">
+          <li><a href="#" class="link link-current">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
           <li><a href="#" class="link">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="site-contacts list-style">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11(000) 111-11-11</a></li>
         </ul>
@@ -29,47 +38,50 @@
     <main>
       <!--Герой-->
       <section class="hero">
-        <h1 class="hero-title">Effective solutions for your business</h1>
-        <button type="button">Order service</button>
+        <h1 class="title">Effective solutions for your business</h1>
+        <button type="button" class="button">Order service</button>
       </section>
-      <!--нижче будуть однакові класи у секцій т я колір той самий-->
-      <section class="section">
+
+      <!--Values-->
+      <section class="values">
         <!--Наші цінності це буде схований заголовок-->
         <h2>Our values</h2>
-        <ul class="values">
+        <ul class="list-style">
           <li>
             <h3 class="title">Strategy</h3>
-            <p>
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="title">Punctuality</h3>
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="title">Diligence</h3>
+            <p class="text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="title">Technologies</h3>
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
+
+      <!--What are we doing-->
       <section class="section">
-        <h2 class="section-title">What are we doing</h2>
-        <ul>
+        <h2 class="title">What are we doing</h2>
+        <ul class="list-style">
           <li>
             <img
               src="./images/rectangle71(1).jpg"
@@ -96,9 +108,11 @@
           </li>
         </ul>
       </section>
-      <section class="section">
-        <h2 class="section-title">Our team</h2>
-        <ul>
+
+      <!--Our team-->
+      <section class="section-team section">
+        <h2 class="title">Our team</h2>
+        <ul class="list-style">
           <li>
             <img
               src="./images/pd.jpg"
@@ -107,8 +121,8 @@
               height="260"
             />
 
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="name">Mark Guerrero</h3>
+            <p class="text">Product Designer</p>
           </li>
           <li>
             <img
@@ -118,8 +132,8 @@
               height="260"
             />
 
-            <h3>Tom Ford</h3>
-            <p>Frontend dev</p>
+            <h3 class="name">Tom Ford</h3>
+            <p class="text">Frontend dev</p>
           </li>
           <li>
             <img
@@ -129,8 +143,8 @@
               height="260"
             />
 
-            <h3>Camila Garsia</h3>
-            <p>Marketing</p>
+            <h3 class="name">Camila Garsia</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -140,15 +154,17 @@
               height="260"
             />
 
-            <h3>Daniel Wilson</h3>
-            <p>Designer</p>
+            <h3 class="name">Daniel Wilson</h3>
+            <p class="text">Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">Webstudio</a>
-      <p>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="#" class="footer-logo"><span class="logo-accent">Web</span>Studio</a>
+      <p class="text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

@@ -1,0 +1,153 @@
+:root {
+    --primary-text-color:rgba(67,68,85,1)
+    --title-text-color:rgba(46,47,66,1)
+    --accent-color:rgba(77,90,229,1)
+    --hero-text-color:(255,255,255,1)
+    --hero-bg-color:(46, 47, 66, 1)
+}
+
+body {
+
+    color: #434455;
+    background-color: #ffffff;
+    font-family: 'Raleway','Roboto';
+
+}
+    /* Header */
+    header {
+      background-color: rgba(231, 233, 252, 1);
+      
+     }
+     .header-link  {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: calc(24 / 16);
+      color: var(--hero-bg-color);
+      text-decoration: none;
+  
+     }
+     /* reset decor settings */
+
+     ul {
+      list-style: none;
+      }
+     .link {
+       text-decoration: none;
+     }
+      /* Logo */
+     .logo {
+       font-family: 'Raleway';
+       font-style: normal;
+       font-weight: 800;
+       font-size: 18px;
+       line-height: calc(21 / 18);
+     }
+     .logo-accent {
+        color: var(--accent-color);
+     }
+     .header-logo {
+       color: var(--title-text-color); 
+     }
+     .footer-logo {
+        color: var(--hero-text-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+      }
+
+      .site-nav .link:hover,
+      .site-nav .link:focus,
+      .site-nav .link-current,
+      .site-contacts .link:hover,
+      .site-contacts .link:focus,
+      .adress .link:hover,
+      .adress .link:focus {
+        color: var(--accent-color);
+      }
+
+      /* Header nav */
+      .site-nav .link {
+        color: var(--hero-bg-color);
+      }
+
+      
+      
+      /* Hero */
+     .hero {
+       background-color: var(--hero-bg-color); 
+       }
+     .hero-title {
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 56px;
+       line-height: calc(24 / 16);
+       color:var(--hero-text-color);
+      
+       }
+     .hero-button { 
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height:calc(24 / 16);
+       color: var(--hero-text-color);
+       background-color: var(--accent-color);
+       }
+  
+
+   /* колір основного тексту #ffffff */
+
+   /* колір бекграунду ефектів солюжн #2E2F42 */
+
+   /* колір кнопки ордер сервіс #4D5AE5 */
+
+   /* колір заголовку що ми робимо #2E2F42 */
+
+   /* колір дрібного тексту #434455 */
+
+   /* колір бекграунду наша команда #F4F4FD */
+
+   /* колір бекграунду хедер #E7E9FC */
+
+   /* зясувати як зробити напис логотипу двома кольорами */
+   .logo {
+    color: var(--title-text-color); 
+    color: var(--accent-color);
+   }
+
+   
+   /* Site nav */
+
+ 
+   .site-nav .link {
+    color: var(--title-text-color);
+    background-color:#E7E9FC;
+    }
+   
+    /* Section */
+
+ .section-title {
+    color: var(--title-text-color);
+   }
+
+   
+
+   /* Our values */
+
+   .values .title {
+       color: var(--title-text-color);
+       
+   }
+  /* Our Team */
+
+  /* Button */
+
+  .button {
+      color: var(--hero-text-color);
+      background-color: var(--accent-color);
+  }
