@@ -4,87 +4,89 @@
     --accent-color:rgba(77,90,229,1)
     --hero-text-color:(255,255,255,1)
     
-}
+ }
 
   body {
-
-    color: #434455;
-    background-color: #ffffff;
-    font-family: 'Raleway','Roboto';
-
+   background-color: var(--hero-text-color);
+   font-family: 'Roboto', sans-serif;
   }
-     /* Header */
-     header {
-      background-color: rgba(231, 233, 252, 1);
-      
-     }
-   
-     /* reset decor settings */
 
-     ul {
-      list-style: none;
+ /* Header */
+  header {
+  background-color: var(--hero-text-color);
+      }
+   
+ /* reset decor settings */
+
+  ul {
+   list-style: none;
       }
      .link {
        text-decoration: none;
-     }
-      /* Logo */
-     .logo {
-       font-family: 'Raleway';
-       font-style: normal;
-       font-weight: 800;
-       font-size: 18px;
-       line-height: calc(21 / 18);
-     }
-     .logo-accent {
-        color: var(--accent-color);
-     }
-     .header-logo {
-       color: var(--title-text-color); 
-     }
-     .footer-logo {
-        color: var(--hero-text-color);
-        
-      }
+    }
+ /* Logo */
+  .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    }
 
-       /* Header nav */
-      .site-nav .link {
-        color: var(--hero-bg-color);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-      }
-      .site-nav .link:hover,
-      .site-nav .link:focus,
-      .site-nav .link-current,
-      .site-contacts .link:hover,
-      .site-contacts .link:focus,
-      .adress .link:hover,
-      .adress .link:focus {
-        color: var(--accent-color);
-      }
-      .site-contacts .link {
-        color: var(--title-text-color);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height:calc(24 / 16);
-      }
+  .logo-accent {
+    color: var(--accent-color);
+    }
 
-      /* Hero */
-     .hero {
-       background-color: var(--accent-color); 
-       }
-     .hero .title {
-       color: var(--hero-text-color);
-       font-family: 'Roboto';
-       font-style: normal;
-       font-weight: 700;
-       font-size: 56px;
-       line-height: calc(24 / 16);
-       }
+  .header-logo {
+    color: var(--title-text-color); 
+    }
+
+  .footer-logo {
+    color: var(--hero-text-color);
+   }
+
+ /* Header nav */
+  .site-nav .link {
+    color: var(--hero-bg-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    }
+
+  .site-nav .link:hover,
+  .site-nav .link:focus,
+  .site-nav .link-current,
+  .site-contacts .link:hover,
+  .site-contacts .link:focus,
+  .adress .link:hover,
+  .adress .link:focus {
+    color: var(--accent-color);
+    }
+
+  .site-contacts .link {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:calc(24 / 16);
+    }
+
+ /* Hero */
+  .hero {
+    background-color: var(--accent-color); 
+    }
+
+  .hero .title {
+    color: var(--hero-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(24 / 16);
+    }
 
        /* Button */
 
@@ -120,15 +122,22 @@
 
      /* Our Team */
      .section-team .name {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height:calc(24 / 16);
+        font-size: 20px;
+        line-height:calc(24 / 20);
+        color: var(--title-text-color);
         
       }
       
       .section-team .text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
         font-size: 16px;
         line-height:calc(24 / 16);
+        color: var(--primary-text-color);
       }
 
      /* What are we doing */
@@ -148,9 +157,19 @@
         font-size: 16px;
         line-height:calc(24 / 16);
      }
+     
      /* Footer */
+
+     .studio-white {
+	  color: var(--hero-text-color);
+     }
+
      .footer {
-        background-color: var(--title-text-color);
+	 background: color #2e2f42;;
+     }
+
+     .footer-text {
+	 color:#e7e9fc;
      }
 
 
@@ -170,7 +189,7 @@
 
    /* колір бекграунду хедер #E7E9FC */
 
-   /* зясувати як зробити напис логотипу двома кольорами */
+  
   
 
    
