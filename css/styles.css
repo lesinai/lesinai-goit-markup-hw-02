@@ -1,8 +1,8 @@
 :root {
-    --primary-text-color:rgba(67,68,85,1)
-    --title-text-color:rgba(46,47,66,1)
-    --accent-color:rgba(77,90,229,1)
-    --hero-text-color:(255,255,255,1)
+    --primary-text-color:rgba(67,68,85,1);
+    --title-text-color:rgba(46,47,66,1);
+    --accent-color:rgba(77,90,229,1);
+    --hero-text-color:(255,255,255,1);
     
  }
 
@@ -10,12 +10,15 @@
    background-color: var(--hero-text-color);
    font-family: 'Roboto', sans-serif;
   }
-
+  
  /* Header */
   header {
   background-color: var(--hero-text-color);
       }
-   
+  .email-style {
+    text-decoration: none;
+    color:#434455;
+  }
  /* reset decor settings */
 
   ul {
@@ -26,6 +29,7 @@
     }
  /* Logo */
   .logo {
+    text-transform: uppercase ;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -62,7 +66,7 @@
   .site-contacts .link:focus,
   .adress .link:hover,
   .adress .link:focus {
-    color: var(--accent-color);
+    color: var(--hero-bg-color);
     }
 
   .site-contacts .link {
@@ -76,11 +80,11 @@
 
  /* Hero */
   .hero {
-    background-color: var(--accent-color); 
+    background-color:#2E2F42; 
     }
 
-  .hero .title {
-    color: var(--hero-text-color);
+  .hero-title {
+    color: white;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -91,7 +95,7 @@
        /* Button */
 
      .button { 
-       color: var(--hero-text-color);
+       color:white;
        background-color: var(--accent-color);
 
        cursor: pointer;
@@ -102,10 +106,14 @@
        font-size: 16px;
        line-height:calc(24 / 16);
        }
-
+     .button-filter-all {
+      background-color: #4D5AE5;
+      color:white;
+     }
+      
      .button-filter {
-        background-color: rgba(231, 233, 252, 1);
-
+        background-color:#E7E9FC;
+        color: #4D5AE5;
         cursor: pointer;
 
         font-family: 'Roboto';
@@ -116,7 +124,7 @@
      }
      .button-filter:hover, 
      .button-filter:focus {
-        color: var(--hero-text-color);
+        color: #4D5AE5;
         background-color: var(--accent-color);
      }
 
@@ -157,23 +165,29 @@
         font-size: 16px;
         line-height:calc(24 / 16);
      }
-     
-     /* Footer */
 
+    /* Footer */
+ .footer {
+   
+   background-color:  #2e2f42;
+        }
      .studio-white {
-	  color: var(--hero-text-color);
+	  color:#F4F4FD;
      }
 
-     .footer {
-	 background: color #2e2f42;;
-     }
+     
 
      .footer-text {
-	 color:#e7e9fc;
+	   color:#e7e9fc;
+     }
+     .footer-logo {
+      color: #e7e9fc;
+      text-decoration: none;
+     }
+     a {
+      text-decoration: none;
      }
 
-
-  
 
    /* колір основного тексту #ffffff */
 
